@@ -27,7 +27,7 @@ def write_Notification(channel,recipient, message):
         sm = SMSNotification()
         return sm.send(recipient, message)
     
-    if(channel == "push"):
+    if(channel == "push"):    
         pm = PushNotification()
         return pm.send(recipient, message)
     
@@ -45,4 +45,8 @@ if __name__ == "__main__":
     write_Notification("sms", 9154306476 , "Makar Sankranti Event by 5pm")
     
     print("\nSystem Alert:")
+<<<<<<< HEAD
     write_Notification("push", "samyak", "Drop server till 6pm")
+=======
+    write_Notification("push", "samyak", "Drop server till 6pm")
+>>>>>>> c4b803e77300efd715d85a99de9d1b1bbcdbc2f8
