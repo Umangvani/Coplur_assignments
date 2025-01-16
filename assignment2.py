@@ -42,7 +42,7 @@ if __name__ == "__main__":
     
     
     print("\nEvent Reminder:")
-    write_Notification("sms", 9154306476 , "Don't forget the Coplur 2025 party tomorrow")
+    write_Notification("sms", 9154306476 , "Makar Sankranti Event by 5pm")
     
     print("\nSystem Alert:")
-    write_Notification("push", "samyak", "database drop till 6pm")
+    write_Notification("push", "samyak", "Drop server till 6pm")
